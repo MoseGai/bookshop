@@ -1,0 +1,858 @@
+WARNING 2019-11-22 11:58:22,695 log 228 Not Found: /
+WARNING 2019-11-22 11:58:22,696 basehttp 154 "GET / HTTP/1.1" 404 2133
+ERROR 2019-11-22 11:58:31,057 log 228 Internal Server Error: /shop/index/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "bshop/index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop/index.html
+ERROR 2019-11-22 11:58:31,197 basehttp 154 "GET /shop/index/ HTTP/1.1" 500 85171
+WARNING 2019-11-22 11:58:38,221 log 228 Not Found: /admin/
+WARNING 2019-11-22 11:58:38,222 basehttp 154 "GET /admin/ HTTP/1.1" 404 4645
+ERROR 2019-11-22 11:58:45,949 log 228 Internal Server Error: /shop/index/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "bshop/index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop/index.html
+ERROR 2019-11-22 11:58:45,950 basehttp 154 "GET /shop/index/ HTTP/1.1" 500 85171
+WARNING 2019-11-22 11:58:47,666 log 228 Not Found: /
+WARNING 2019-11-22 11:58:47,666 basehttp 154 "GET / HTTP/1.1" 404 2133
+WARNING 2019-11-22 12:04:59,633 log 228 Not Found: /
+WARNING 2019-11-22 12:04:59,634 basehttp 154 "GET / HTTP/1.1" 404 2133
+WARNING 2019-11-22 12:05:07,226 log 228 Not Found: /admin/
+WARNING 2019-11-22 12:05:07,227 basehttp 154 "GET /admin/ HTTP/1.1" 404 4645
+ERROR 2019-11-22 12:05:29,690 log 228 Internal Server Error: /shop/index/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "bshop/index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop/index.html
+ERROR 2019-11-22 12:05:29,693 basehttp 154 "GET /shop/index/ HTTP/1.1" 500 85009
+INFO 2019-11-22 12:08:45,153 basehttp 154 "GET /admin/index/ HTTP/1.1" 302 0
+ERROR 2019-11-22 12:08:45,386 log 228 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'admin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\adminuser\views.py", line 45, in adminlogin
+    return render(request, 'admin/login.html', params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admin' is not a registered namespace
+ERROR 2019-11-22 12:08:45,390 basehttp 154 "GET /admin/login/ HTTP/1.1" 500 190867
+WARNING 2019-11-22 12:08:58,267 log 228 Not Found: /
+WARNING 2019-11-22 12:08:58,269 basehttp 154 "GET / HTTP/1.1" 404 2133
+INFO 2019-11-22 12:09:06,081 basehttp 154 "GET /admin/index/ HTTP/1.1" 302 0
+ERROR 2019-11-22 12:09:06,245 log 228 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'admin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\adminuser\views.py", line 45, in adminlogin
+    return render(request, 'admin/login.html', params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admin' is not a registered namespace
+ERROR 2019-11-22 12:09:06,252 basehttp 154 "GET /admin/login/ HTTP/1.1" 500 190871
+INFO 2019-11-22 12:09:13,975 basehttp 154 "GET /admin/index/ HTTP/1.1" 302 0
+ERROR 2019-11-22 12:09:14,044 log 228 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'admin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\adminuser\views.py", line 45, in adminlogin
+    return render(request, 'admin/login.html', params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admin' is not a registered namespace
+ERROR 2019-11-22 12:09:14,047 basehttp 154 "GET /admin/login/ HTTP/1.1" 500 190871
+WARNING 2019-11-22 12:13:30,766 log 228 Not Found: /
+WARNING 2019-11-22 12:13:30,768 basehttp 154 "GET / HTTP/1.1" 404 2133
+ERROR 2019-11-22 12:13:42,244 log 228 Internal Server Error: /shop/index/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "bshop/index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop/index.html
+ERROR 2019-11-22 12:13:42,246 basehttp 154 "GET /shop/index/ HTTP/1.1" 500 85159
+ERROR 2019-11-22 13:16:02,815 log 228 Internal Server Error: /shop/index/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "bshop/index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop/index.html
+ERROR 2019-11-22 13:16:02,817 basehttp 154 "GET /shop/index/ HTTP/1.1" 500 85009
+WARNING 2019-11-22 13:20:13,171 log 228 Not Found: /shop/
+WARNING 2019-11-22 13:20:13,171 basehttp 154 "GET /shop/ HTTP/1.1" 404 3664
+WARNING 2019-11-22 13:32:32,189 log 228 Not Found: /user/
+WARNING 2019-11-22 13:32:32,190 basehttp 154 "GET /user/ HTTP/1.1" 404 3475
+WARNING 2019-11-22 13:32:41,575 log 228 Not Found: /user/re
+WARNING 2019-11-22 13:32:41,575 basehttp 154 "GET /user/re HTTP/1.1" 404 3481
+ERROR 2019-11-22 13:32:47,931 log 228 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\User\views.py", line 32, in register
+    return render(request, 'bshop_user/register.html')  # 渲染
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop_user/register.html
+ERROR 2019-11-22 13:32:47,933 basehttp 154 "GET /user/register/ HTTP/1.1" 500 83018
+WARNING 2019-11-22 14:49:19,590 log 228 Not Found: /
+WARNING 2019-11-22 14:49:19,609 basehttp 154 "GET / HTTP/1.1" 404 2133
+WARNING 2019-11-22 14:49:27,255 log 228 Not Found: /shop
+WARNING 2019-11-22 14:49:27,256 basehttp 154 "GET /shop HTTP/1.1" 404 2163
+WARNING 2019-11-22 16:30:13,890 log 228 Not Found: /
+WARNING 2019-11-22 16:30:13,904 basehttp 154 "GET / HTTP/1.1" 404 2133
+ERROR 2019-11-22 16:30:27,185 log 228 Internal Server Error: /shop/index/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\contrib\sessions\backends\base.py", line 190, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'book.django_session' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 13, in index
+    thisuser = UserMethod(request)
+  File "D:\bookshop\User\user.py", line 4, in __init__
+    self.uinfo = self.getUserInfo()  # 运行判断
+  File "D:\bookshop\User\user.py", line 8, in getUserInfo
+    if 'user' in self.request.session:
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\contrib\sessions\backends\base.py", line 52, in __contains__
+    return key in self._session
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\contrib\sessions\backends\base.py", line 195, in _get_session
+    self._session_cache = self.load()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\contrib\sessions\backends\db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    expire_date__gt=timezone.now()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\models\query.py", line 393, in get
+    num = len(clone)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\models\query.py", line 250, in __len__
+    self._fetch_all()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\models\query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\models\query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\models\sql\compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'book.django_session' doesn't exist")
+ERROR 2019-11-22 16:30:27,212 basehttp 154 "GET /shop/index/ HTTP/1.1" 500 227646
+WARNING 2019-11-22 16:31:49,690 log 228 Not Found: /
+WARNING 2019-11-22 16:31:49,691 basehttp 154 "GET / HTTP/1.1" 404 2133
+ERROR 2019-11-22 16:32:03,041 log 228 Internal Server Error: /shop/index/
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "bshop/index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop/index.html
+ERROR 2019-11-22 16:32:03,043 basehttp 154 "GET /shop/index/ HTTP/1.1" 500 85376
+ERROR 2019-11-22 16:37:36,032 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "bshop/index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bshop/index.html
+ERROR 2019-11-22 16:37:36,034 basehttp 154 "GET / HTTP/1.1" 500 84954
+ERROR 2019-11-22 16:41:16,383 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2019-11-22 16:41:16,385 basehttp 154 "GET / HTTP/1.1" 500 84858
+ERROR 2019-11-22 16:42:52,355 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    render(request, "index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2019-11-22 16:42:52,357 basehttp 154 "GET / HTTP/1.1" 500 84844
+ERROR 2019-11-22 16:43:48,582 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bookshop\Shop\views.py", line 37, in index
+    return render(request, "index.html",data)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Virtualenvs\book_shop\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2019-11-22 16:43:48,584 basehttp 154 "GET / HTTP/1.1" 500 84858
+INFO 2019-11-22 16:45:42,326 basehttp 154 "GET / HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:45:42,379 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:45:42,381 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:45:42,382 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:45:42,382 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:45:42,396 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:45:42,398 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:45:42,408 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:45:42,411 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:45:42,412 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:45:42,414 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:45:42,416 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:45:42,425 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:45:42,433 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:45:42,435 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:45:42,437 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:45:42,440 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+INFO 2019-11-22 16:46:58,140 basehttp 154 "GET / HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:46:58,188 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:46:58,194 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:46:58,195 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:46:58,196 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:46:58,196 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:46:58,197 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:46:58,216 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:46:58,218 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:46:58,222 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:46:58,238 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:46:58,238 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:46:58,246 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:46:58,247 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:46:58,248 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:46:58,254 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:46:58,259 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+INFO 2019-11-22 16:47:26,464 basehttp 154 "GET / HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:47:26,549 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:47:26,552 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:47:26,563 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:47:26,564 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,565 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:47:26,565 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:47:26,569 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:47:26,570 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:47:26,580 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,599 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:47:26,602 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:47:26,606 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,614 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:47:26,615 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,624 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,642 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,645 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:47:26,645 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:47:26,652 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,653 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:47:26,694 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:47:26,714 log 228 Not Found: /favicon.ico
+WARNING 2019-11-22 16:47:26,715 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2284
+INFO 2019-11-22 16:48:38,092 basehttp 154 "GET / HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:48:38,182 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:48:38,185 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:38,185 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:48:38,186 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:38,187 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:48:38,194 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:48:38,208 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:38,212 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:38,214 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:38,230 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:48:38,232 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:38,235 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:38,246 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:38,247 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:38,248 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:38,248 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+INFO 2019-11-22 16:48:57,014 basehttp 154 "GET / HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:48:57,043 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:57,049 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:57,064 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:48:57,066 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:57,083 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:48:57,083 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:48:57,084 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:48:57,092 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:48:57,098 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:57,101 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:48:57,106 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:57,110 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:57,131 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:57,132 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:57,132 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:57,132 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:48:57,139 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:48:57,140 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+INFO 2019-11-22 16:50:08,574 basehttp 154 "GET / HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:50:08,644 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:50:08,655 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:50:08,660 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:50:08,662 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:50:08,662 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:50:08,664 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:50:08,675 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:50:08,689 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:50:08,689 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:50:08,692 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:50:08,704 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:50:08,707 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:50:08,720 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:50:08,729 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:50:08,729 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:50:08,736 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:50:20,058 log 228 Not Found: /admin？
+WARNING 2019-11-22 16:50:20,060 basehttp 154 "GET /admin%EF%BC%9F HTTP/1.1" 404 2281
+WARNING 2019-11-22 16:50:32,678 log 228 Not Found: /admin/
+WARNING 2019-11-22 16:50:32,680 basehttp 154 "GET /admin/ HTTP/1.1" 404 4745
+INFO 2019-11-22 16:50:58,616 basehttp 154 "GET /admin/login/ HTTP/1.1" 200 1608
+WARNING 2019-11-22 16:50:58,628 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:50:58,631 basehttp 154 "GET /static/admin/js/Particleground.js HTTP/1.1" 404 1702
+WARNING 2019-11-22 16:50:58,632 basehttp 154 "GET /static/admin/js/verificationNumbers.js HTTP/1.1" 404 1717
+WARNING 2019-11-22 16:50:58,651 basehttp 154 "GET /static/admin/css/style.css HTTP/1.1" 404 1681
+INFO 2019-11-22 16:51:20,394 basehttp 154 "GET /shop/index/ HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:51:20,413 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:20,416 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:51:20,417 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:51:20,424 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:51:20,428 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:51:20,430 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:20,432 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:51:20,436 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:20,436 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:20,444 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:20,446 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:20,448 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:20,449 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:20,458 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:20,459 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:20,459 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+INFO 2019-11-22 16:51:28,249 basehttp 154 "GET /user/personalinfo/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:51:28,312 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+WARNING 2019-11-22 16:51:28,328 basehttp 154 "GET /static/css/login.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:28,329 basehttp 154 "GET /static/images/logo1.png HTTP/1.1" 404 1672
+WARNING 2019-11-22 16:51:28,333 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:51:28,337 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:28,341 basehttp 154 "GET /static/js/login.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:51:28,341 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:51:28,341 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:51:28,342 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+INFO 2019-11-22 16:51:30,099 basehttp 154 "GET /shop/index/ HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:51:30,124 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:51:30,128 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:30,129 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:30,131 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:30,131 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:30,136 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:51:30,143 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:30,151 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:30,152 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:30,153 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:51:30,153 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:30,160 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:30,161 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:30,166 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:51:30,166 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:30,169 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+INFO 2019-11-22 16:51:31,048 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+WARNING 2019-11-22 16:51:31,062 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:51:31,063 basehttp 154 "GET /static/images/logo1.png HTTP/1.1" 404 1672
+WARNING 2019-11-22 16:51:31,064 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:31,072 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:51:31,073 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:31,077 basehttp 154 "GET /static/css/login.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:31,080 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:51:31,080 basehttp 154 "GET /static/js/login.js HTTP/1.1" 404 1657
+INFO 2019-11-22 16:51:33,480 basehttp 154 "GET /shop/index/ HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:51:33,496 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:33,501 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:51:33,504 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:51:33,504 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:51:33,505 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:33,506 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:33,517 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:33,519 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:33,520 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:33,527 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:33,528 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:51:33,532 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:33,534 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:51:33,534 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:33,542 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:33,542 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+INFO 2019-11-22 16:51:34,288 basehttp 154 "GET /shop/showcart/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:51:34,299 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+WARNING 2019-11-22 16:51:34,315 basehttp 154 "GET /static/js/login.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:51:34,319 basehttp 154 "GET /static/images/logo1.png HTTP/1.1" 404 1672
+WARNING 2019-11-22 16:51:34,320 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:51:34,323 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:51:34,327 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:51:34,328 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:34,331 basehttp 154 "GET /static/css/login.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:34,332 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+INFO 2019-11-22 16:51:36,918 basehttp 154 "GET /shop/index/ HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:51:36,938 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:51:36,938 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:36,938 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:36,940 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:51:36,942 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:36,943 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:36,957 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:36,959 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:51:36,962 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:36,963 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:51:36,964 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:51:36,967 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:36,974 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:36,975 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:51:36,976 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:51:36,976 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+INFO 2019-11-22 16:52:47,769 basehttp 154 "GET / HTTP/1.1" 200 6335
+WARNING 2019-11-22 16:52:47,853 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 404 1675
+WARNING 2019-11-22 16:52:47,856 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:52:47,858 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:52:47,859 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 404 1651
+WARNING 2019-11-22 16:52:47,859 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2019-11-22 16:52:47,860 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+WARNING 2019-11-22 16:52:47,865 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:52:47,872 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:52:47,872 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2019-11-22 16:52:47,877 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:52:47,878 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:52:47,880 basehttp 154 "GET /static/js/common.js HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:52:47,882 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:52:47,887 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 404 1660
+WARNING 2019-11-22 16:52:47,888 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 404 1663
+WARNING 2019-11-22 16:52:47,890 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 404 1660
+INFO 2019-11-22 16:53:00,905 basehttp 154 "GET /admin/login/ HTTP/1.1" 200 1608
+WARNING 2019-11-22 16:53:00,921 basehttp 154 "GET /static/admin/js/verificationNumbers.js HTTP/1.1" 404 1717
+WARNING 2019-11-22 16:53:00,921 basehttp 154 "GET /static/admin/js/Particleground.js HTTP/1.1" 404 1702
+WARNING 2019-11-22 16:53:00,921 basehttp 154 "GET /static/admin/css/style.css HTTP/1.1" 404 1681
+WARNING 2019-11-22 16:53:00,921 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 404 1678
+INFO 2019-11-22 16:56:34,345 basehttp 154 "GET / HTTP/1.1" 200 6335
+INFO 2019-11-22 16:56:34,438 basehttp 154 "GET /static/css/foot.css HTTP/1.1" 200 2230
+INFO 2019-11-22 16:56:34,447 basehttp 154 "GET /static/images/4.webp HTTP/1.1" 200 71944
+INFO 2019-11-22 16:56:34,454 basehttp 154 "GET /static/js/ie6.js HTTP/1.1" 200 7374
+INFO 2019-11-22 16:56:34,462 basehttp 154 "GET /static/images/2.webp HTTP/1.1" 200 28282
+INFO 2019-11-22 16:56:34,462 basehttp 154 "GET /static/images/6.jpg HTTP/1.1" 200 12977
+INFO 2019-11-22 16:56:34,479 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 2072
+INFO 2019-11-22 16:56:34,490 basehttp 154 "GET /static/images/3.webp HTTP/1.1" 200 66878
+INFO 2019-11-22 16:56:34,503 basehttp 154 "GET /static/images/5.webp HTTP/1.1" 200 74912
+INFO 2019-11-22 16:56:34,505 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-11-22 16:56:34,507 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 5687
+INFO 2019-11-22 16:56:34,510 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 3301
+INFO 2019-11-22 16:56:34,525 basehttp 154 "GET /static/admin/js/jquery.js HTTP/1.1" 200 84319
+INFO 2019-11-22 16:56:34,547 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 8472
+INFO 2019-11-22 16:56:34,558 basehttp 154 "GET /static/images/7.jpg HTTP/1.1" 200 20201
+INFO 2019-11-22 16:56:34,572 basehttp 154 "GET /static/admin/js/html5.js HTTP/1.1" 200 2377
+INFO 2019-11-22 16:56:34,585 basehttp 154 "GET /static/images/1.webp HTTP/1.1" 200 53728
+INFO 2019-11-22 16:56:34,606 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:56:34,613 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:56:34,614 basehttp 154 "GET /static/images/tu2.png HTTP/1.1" 200 2745
+INFO 2019-11-22 16:56:34,625 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 5931
+INFO 2019-11-22 16:57:13,943 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:57:13,952 basehttp 154 "GET /static/css/login.css HTTP/1.1" 200 2433
+INFO 2019-11-22 16:57:13,952 basehttp 154 "GET /static/css/base.css HTTP/1.1" 200 251
+INFO 2019-11-22 16:57:14,012 basehttp 154 "GET /static/images/logo1.png HTTP/1.1" 200 8472
+INFO 2019-11-22 16:57:14,025 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1245
+INFO 2019-11-22 16:57:14,039 basehttp 154 "GET /static/images/new_tip.png HTTP/1.1" 200 1198
+INFO 2019-11-22 16:57:14,040 basehttp 154 "GET /static/images/tu1.png HTTP/1.1" 200 8400
+INFO 2019-11-22 16:57:14,045 basehttp 154 "GET /static/images/login_bgk.jpg HTTP/1.1" 200 141157
+INFO 2019-11-22 16:57:16,365 basehttp 154 "GET / HTTP/1.1" 200 6335
+INFO 2019-11-22 16:57:16,411 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:57:16,421 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:57:17,802 basehttp 154 "GET /user/register/ HTTP/1.1" 200 5971
+INFO 2019-11-22 16:57:17,811 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2757
+INFO 2019-11-22 16:57:17,816 basehttp 154 "GET /static/css/register.css HTTP/1.1" 200 3803
+INFO 2019-11-22 16:57:17,842 basehttp 154 "GET /static/js/jquery-3.3.1.js HTTP/1.1" 200 271751
+INFO 2019-11-22 16:57:17,872 basehttp 154 "GET /static/images/head1.gif HTTP/1.1" 200 293
+INFO 2019-11-22 16:57:19,994 basehttp 154 "GET / HTTP/1.1" 200 6335
+INFO 2019-11-22 16:57:20,036 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:57:20,041 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:57:27,488 basehttp 154 "GET /shop/showcart/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:57:27,497 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:57:29,314 basehttp 154 "GET / HTTP/1.1" 200 6335
+INFO 2019-11-22 16:57:29,357 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:57:29,364 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:57:30,135 basehttp 154 "GET /user/personalinfo/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:57:30,142 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:57:35,066 basehttp 154 "GET / HTTP/1.1" 200 6335
+INFO 2019-11-22 16:57:35,120 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:57:35,125 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 16:57:36,023 basehttp 154 "GET /user/register/ HTTP/1.1" 200 5971
+INFO 2019-11-22 16:57:39,204 basehttp 154 "GET / HTTP/1.1" 200 6335
+INFO 2019-11-22 16:57:39,253 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 302 0
+INFO 2019-11-22 16:57:39,263 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 17:10:42,203 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 17:11:00,210 basehttp 154 "POST /user/login/ HTTP/1.1" 200 4688
+INFO 2019-11-22 17:11:08,120 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 17:11:11,216 basehttp 154 "GET / HTTP/1.1" 200 6335
+INFO 2019-11-22 17:11:11,256 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 302 0
+INFO 2019-11-22 17:11:11,265 basehttp 154 "GET /user/login/ HTTP/1.1" 200 4652
+INFO 2019-11-22 17:11:12,839 basehttp 154 "GET /user/register/ HTTP/1.1" 200 5971
+INFO 2019-11-22 17:11:45,618 basehttp 154 "GET /user/register_exist/?uname=17521739824 HTTP/1.1" 200 12
+INFO 2019-11-22 17:12:00,486 basehttp 154 "GET /user/register_exist/?uname=17521739824 HTTP/1.1" 200 12
+INFO 2019-11-22 17:12:00,696 basehttp 154 "POST /user/register/ HTTP/1.1" 302 0
+INFO 2019-11-22 17:12:00,702 basehttp 154 "GET /user/login HTTP/1.1" 301 0
+INFO 2019-11-22 17:12:00,760 basehttp 154 "GET /user/login/ HTTP/1.1" 302 0
+INFO 2019-11-22 17:12:00,780 basehttp 154 "GET /shop/index/ HTTP/1.1" 200 6332
+INFO 2019-11-22 17:12:00,862 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
+INFO 2019-11-22 17:12:45,448 basehttp 154 "GET /shop/showcart/ HTTP/1.1" 200 6587
+INFO 2019-11-22 17:12:45,469 basehttp 154 "GET /static/css/showcat.css HTTP/1.1" 200 3389
+INFO 2019-11-22 17:12:45,478 basehttp 154 "GET /static/js2/ShowCat.js HTTP/1.1" 200 3
+INFO 2019-11-22 17:12:45,511 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
+INFO 2019-11-22 17:12:49,434 basehttp 154 "GET /user/personalinfo/ HTTP/1.1" 200 3730
+INFO 2019-11-22 17:12:49,457 basehttp 154 "GET /static/css/base_1.css HTTP/1.1" 200 1586
+INFO 2019-11-22 17:12:49,468 basehttp 154 "GET /static/css/personalinfo.css HTTP/1.1" 200 990
+INFO 2019-11-22 17:12:49,504 basehttp 154 "GET /static/images/icon_menu.png HTTP/1.1" 200 1208
+INFO 2019-11-22 17:12:49,520 basehttp 154 "GET /static/images/my_menu_title_bg.png HTTP/1.1" 200 1054
+INFO 2019-11-22 17:12:56,309 basehttp 154 "GET /user/address/ HTTP/1.1" 200 6921
+INFO 2019-11-22 17:12:56,321 basehttp 154 "GET /static/css/address.css HTTP/1.1" 200 2993
+INFO 2019-11-22 17:12:56,329 basehttp 154 "GET /static/js/address.js HTTP/1.1" 200 1030
+INFO 2019-11-22 17:12:56,341 basehttp 154 "GET /static/js/distpicker.js HTTP/1.1" 200 6169
+INFO 2019-11-22 17:12:56,355 basehttp 154 "GET /static/js/distpicker.data.js HTTP/1.1" 200 99284
+INFO 2019-11-22 17:12:56,396 basehttp 154 "GET /user/getaddress/ HTTP/1.1" 200 192
+INFO 2019-11-22 17:24:37,904 basehttp 154 "GET /user/personalinfo/ HTTP/1.1" 200 3730
+INFO 2019-11-22 17:24:41,546 basehttp 154 "GET /shop/showcart/ HTTP/1.1" 200 6587
+INFO 2019-11-22 17:24:41,591 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
+INFO 2019-11-22 17:24:44,027 basehttp 154 "GET /shop/index/ HTTP/1.1" 200 6332
+INFO 2019-11-22 17:24:44,081 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
+INFO 2019-11-22 17:24:59,749 basehttp 154 "GET /user/personalinfo/ HTTP/1.1" 200 3730
+INFO 2019-11-22 17:25:02,182 basehttp 154 "GET /shop/index/ HTTP/1.1" 200 6332
+INFO 2019-11-22 17:25:02,247 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
+INFO 2019-11-22 17:25:05,587 basehttp 154 "GET /shop/showcart/ HTTP/1.1" 200 6587
+INFO 2019-11-22 17:25:05,638 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
+INFO 2019-11-22 17:25:08,822 basehttp 154 "GET /shop/showcart/ HTTP/1.1" 200 6587
+INFO 2019-11-22 17:25:08,889 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
+INFO 2019-11-22 17:25:10,615 basehttp 154 "GET /shop/showcart/ HTTP/1.1" 200 6587
+INFO 2019-11-22 17:25:10,671 basehttp 154 "GET /shop/getcartnum1/ HTTP/1.1" 200 87
